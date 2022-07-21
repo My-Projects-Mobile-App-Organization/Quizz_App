@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">QuizApps</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="default_web_client_id11" translatable="false">1013918394720-g43tcolpkgkr27fgu46r21qihr2rbj7r.apps.googleusercontent.com</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_account">My Account</string>
+    <string name="nav_leaderboard">LeaderBoard</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

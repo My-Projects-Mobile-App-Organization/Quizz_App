@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChangePassActivity"
+    android:padding="16dp"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_back_activity"
+        android:layout_marginBottom="20dp"
+        android:padding="16dp"
+        android:id="@+id/imgB_back_home"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="ChangePassword"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorAccent"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_Pas_Curr"
+        android:hint="Nhập mật khẩu hiện tại"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/colorPrimary"
+        />
+    <EditText
+        android:id="@+id/edt_new_Pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="Nhập mật khẩu mới"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/colorPrimary"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:padding="5dp"
+        android:layout_marginTop="20dp"
+        >
+        <Button
+            android:id="@+id/btnXacNhanChangePass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Xác nhận"
+            android:textColor="@color/colorAccent"
+            android:background="@drawable/round_corner_button"
+            />
+        <Button
+            android:id="@+id/btn_Cancel_changePass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Hủy"
+            android:textColor="@color/colorAccent"
+            android:background="@drawable/round_corner_button"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/red"
+        android:layout_marginTop="10dp"
+        android:text="Nếu bạn login bằng google vui lòng thay đổi mật khẩu google của bạn"
+        />
+
+
+</LinearLayout>
